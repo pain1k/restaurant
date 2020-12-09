@@ -215,6 +215,7 @@
 }
 .online_btn:hover {
     cursor:pointer;
+    background-color: #f1ba00;
 }
 .find {
     width: 100%;
@@ -310,13 +311,17 @@ list-style-type: none;
     text-decoration: none;
     color: #ffffff;
 }
+
+.about_us ul a:hover {
+    border-bottom: 2px solid yellow;
+}
+
 .footer_name {
     margin-bottom: 25px;
 }
 .footer_btn {
     color: #2b2b2b;
     font-size: 14px;
-    
     padding: 10px 22px 10px 22px;
     background-color: #f1ac11;
     border-radius: 5px;
@@ -327,6 +332,7 @@ list-style-type: none;
 }
 .footer_btn:hover {
     cursor:pointer;
+    background-color: #a1ba22;
 }
 .about_us input[type="email"] {
     height: 36px;
